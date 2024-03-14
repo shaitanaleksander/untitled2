@@ -1,7 +1,15 @@
 public class Main {
 
-  private static void main(String[] args) {
-    System.out.println("hello world!");
-    System.out.println("and second time hello ");
+  public static void main(String[] args) {
+
+    int age = 3;
+    Car car = new Car();
+
+    String  sure = "bob";
+    String bob = "bob";
+    String newBob = new String("bob");
+
+    System.out.println(sure.equals(newBob));
+
   }
 }
