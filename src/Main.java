@@ -5,11 +5,11 @@ public class Main {
     int age = 3;
     Car car = new Car();
 
-    String name = "bob";
+    String  sure = "bob";
     String bob = "bob";
     String newBob = new String("bob");
 
-    System.out.println(name.equals(newBob));
+    System.out.println(sure.equals(newBob));
 
   }
 }
